@@ -24,18 +24,23 @@ public class Ejemplo021 {
         // System.out.printf("Valor en la posición [0][2]\n", arreglo1[0][2]);
        
         arreglo1[0][2] = 1000;
-          
+           
         for (int fila = 0; fila < arreglo1.length; fila++) {
             for (int col = 0; col < arreglo1[fila].length; col++) {
+               
                 // System.out.printf("fila[%d] columna[%d] = %d\n", 
                 //        fila, col, arreglo1[fila][col]);
-                cadenaFinal = String.format("%sfila[%d] columna[%d] = %d\n", 
+                 
+                cadenaFinal = String.format("%sfila[%d] columna[%d] = %d\n" , 
                         cadenaFinal, fila, col, arreglo1[fila][col]);
+               
             }
+          cadenaFinal = String.format("%s-----------------------\n", cadenaFinal);
+            
         }
-        
+
         System.out.printf("%s\n", cadenaFinal);
         
     }
-    
+   
 }
