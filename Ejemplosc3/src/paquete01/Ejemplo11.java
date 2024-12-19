@@ -32,7 +32,8 @@ public class Ejemplo11 {
         4    6
         30   52
         */
-        
+        //en este codigo uso 3 arreglos porque necesitamos sumar los valores qu4e se enceuntran en la posicion 0,0 
+        // el tercer arreglo sirve para presentar la cantidad e filas y columnas de los dos arreglos anteriores 
         int valor1;
         int valor2;
         
